@@ -1,6 +1,10 @@
 # SSHscanner
 botnet scanner written in python
 
+SSH scanner which runs a bruteforce attack with known default login credentials
+
+Saves to vuln list
+
 Dependencies: paramiko
 
 # DISCLAIMER
