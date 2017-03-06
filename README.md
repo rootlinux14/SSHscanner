@@ -7,7 +7,7 @@ Saves to vuln list
 
 Dependencies: paramiko
 
-Usage: python SSHscanner.py <threads> <range> <octets> <timeout>
+Usage: python SSHscanner.py threads range octets timeout
 
 # Setup
 
