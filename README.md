@@ -7,6 +7,14 @@ Saves to vuln list
 
 Dependencies: paramiko
 
+    Usage: python SSHscanner.py <threads> <range> <octets> <timeout>
+Example 1: python SSHscanner.py 4000 a 94 10
+Example 2: python SSHscanner.py 4000 b 94.102 10
+
+# Setup
+
+pip install paramiko
+
 # DISCLAIMER
 
 This tool is capable of causing damage to computers, 
