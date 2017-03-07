@@ -27,9 +27,9 @@ usernames = ['root', 'guest', 'support', 'admin1', 'Administrator', 'admin', 'ub
 passwords = ['1234', 'root', '123456', '54321', 'test', 'support', 'password', 'pass', 'system', 'realtek', 'dreambox', '7ujMko0admin', '7ujMko0vizxv', 'anko', '1111', 'klv123', 'default', 'xmhdipc', 'ubnt', 'xc3511', 'vizxv', '888888', 'raspberry', 'guest', 'toor', '12345', 'admin', 'root1234', 'admin1234']
 
 if len(sys.argv) < 5:
-	print('    Usage: python ' + str(sys.argv[0]) + ' <threads> <range> <octets> <timeout>'
-	print('Example 1: python ' + str(sys.argv[0]) + ' 4000 a 94 10'
-	print('Example 2: python ' + str(sys.argv[0]) + ' 4000 b 94.102 10'
+	print('    Usage: python ' + str(sys.argv[0]) + ' <threads> <range> <octets> <timeout>')
+	print('Example 1: python ' + str(sys.argv[0]) + ' 4000 a 94 10')
+	print('Example 2: python ' + str(sys.argv[0]) + ' 4000 b 94.102 10')
 	sys.exit()
 
 scriptName = str(sys.argv[0])
